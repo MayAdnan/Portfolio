@@ -1,0 +1,26 @@
+{
+  "name": "webbplatsmayadnan",
+  "version": "1.0.0",
+  "description": "Ett projekt om en personlig utvecklarportfölj som presenterar kunskaper, erfarenheter och projekt. Webbplatsen är designad för att ge en översikt över professionella bakgrund och  tekniska färdigheter.",
+  "main": "script.js",
+  "homepage": "https://github.com/MayAdnan/https---github.com-MayAdnan-Portfolio-live-#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build", 
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayAdnan/https---github.com-MayAdnan-Portfolio-live-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayAdnan/https---github.com-MayAdnan-Portfolio-live-/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^6.0.7"
+  }
+}
