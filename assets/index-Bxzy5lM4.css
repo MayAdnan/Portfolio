@@ -1,1 +1,18 @@
-body{font-family:Arial,sans-serif}header .nav-link{font-weight:700;text-transform:uppercase;color:#000}header .nav-link:hover{color:#777}section{padding:20px 0}footer p{font-size:.9rem;color:#777}
+body {
+  font-family: Arial, sans-serif;
+}
+header .nav-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+header .nav-link:hover {
+  color: #777;
+}
+section {
+  padding: 20px 0;
+}
+footer p {
+  font-size: 0.9rem;
+  color: #777;
+}
