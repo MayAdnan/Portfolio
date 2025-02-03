@@ -6,7 +6,7 @@
   "homepage": "https://github.com/MayAdnan/https---github.com-MayAdnan-Portfolio-live-#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build", 
+    "build": "vite build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
