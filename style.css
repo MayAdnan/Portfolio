@@ -1,25 +1,39 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #121212;
+  color: white;
 }
 
-header .nav-link {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: black;
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
-header .nav-link:hover {
-  color: #777;
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
 }
 
-section {
-  padding: 20px 0;
+.btn-outline-light {
+  border-radius: 30px;
+  padding: 10px 20px;
 }
 
-footer p {
-  font-size: 0.9rem;
-  color: #777;
+.social-icons a {
+  transition: 0.3s;
 }
+
+.social-icons a:hover {
+  transform: scale(1.1);
+  color: #1db954;
+}
+
 ion-icon {
   text-decoration: none; /* Tar bort eventuell understrykning */
   border-bottom: none; /* Tar bort eventuell kantlinje */
