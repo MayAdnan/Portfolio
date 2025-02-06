@@ -26,3 +26,7 @@ ion-icon {
   display: inline-block; /* Säkerställer att det fungerar korrekt */
   vertical-align: middle; /* Förhindrar eventuella baslinjeproblem */
 }
+.text-dark {
+  text-decoration: none;
+  border-bottom: none;
+}
