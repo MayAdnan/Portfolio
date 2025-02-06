@@ -1,23 +1,28 @@
 body {
-    font-family: 'Arial', sans-serif;
-  }
-  
-  header .nav-link {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: black;
-  }
-  
-  header .nav-link:hover {
-    color: #777;
-  }
-  
-  section {
-    padding: 20px 0;
-  }
-  
-  footer p {
-    font-size: 0.9rem;
-    color: #777;
-  }
-  
+  font-family: "Arial", sans-serif;
+}
+
+header .nav-link {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+header .nav-link:hover {
+  color: #777;
+}
+
+section {
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #777;
+}
+ion-icon {
+  text-decoration: none; /* Tar bort eventuell understrykning */
+  border-bottom: none; /* Tar bort eventuell kantlinje */
+  display: inline-block; /* Säkerställer att det fungerar korrekt */
+  vertical-align: middle; /* Förhindrar eventuella baslinjeproblem */
+}
