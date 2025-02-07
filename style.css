@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #121212;
-  color: rgb(13, 12, 12);
+  background-color: #000;
+  color: #fff;
 }
 
 .hero {
@@ -10,17 +10,28 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: #000;
 }
 
 .profile-img {
   width: 150px;
   height: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
 
 .btn-outline-light {
+  border: 2px solid #fff;
   border-radius: 30px;
   padding: 10px 20px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-outline-light:hover {
+  background: #fff;
+  color: #000;
 }
 
 .social-icons a {
@@ -29,5 +40,5 @@ body {
 
 .social-icons a:hover {
   transform: scale(1.1);
-  color: #1db954;
+  color: #fff;
 }

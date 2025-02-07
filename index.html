@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="May Adnan's developer portfolio showcasing .NET development skills and contact information."
-    />
+    <meta name="description" content="May Adnan's developer portfolio." />
     <title>May Adnan - Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -17,18 +14,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
-
   <body>
     <header
-      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow"
+      class="navbar navbar-expand-lg navbar-dark bg-black fixed-top shadow-sm"
     >
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#">May Adnan</a>
+        <a class="navbar-brand fw-bold text-white" href="#">May Adnan</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -40,10 +32,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link text-white" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link text-white" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -51,66 +43,75 @@
     </header>
 
     <main
-      class="hero d-flex flex-column justify-content-center align-items-center text-center text-white"
+      class="hero d-flex flex-column justify-content-center align-items-center text-center"
     >
-      <img src="Images/HHRT9249.JPG" alt="May Adnan" class="profile-img" />
-      <h1 class="fw-bold mt-3">May Adnan</h1>
-      <p class="lead">Ambitious .NET Developer | SQL | C#</p>
-      <h1 class="fw-bold">May Adnan</h1>
-      <p class="text-muted">Ambitious .NET Developer</p>
-      <p>Ambitious and solution-oriented developer with many years of experience in dentistry and recently .NET
-        programming. Born in Iraq, lived in Spain for one year.
-        Living in Sweden, Stockholm, now. Thanks to that opportunity I learned to speak Spanish and Swedish, along
-        with my native language which is Arabic.
-        I am a curious person who likes to develop, I am curious about new technology and driven to create modern
-        and efficient solutions.
-        My extensive experience in customer-facing roles has given me a strong understanding of user needs, which I
-        enjoy applying in development work.
-        I am seeking a junior .NET developer role where I can use my skills in C#, SQL, and database management to
-        contribute to the success of the development team.</p>
-      <button class="btn btn-dark mt-2" onclick="window.open('files/cv.pdf', '_blank')">Download My CV</button>
-    </section>
+      <img
+        src="Images/HHRT9249.JPG"
+        alt="May Adnan"
+        class="profile-img rounded-circle shadow"
+      />
+      <h1 class="fw-bold mt-3 text-white">May Adnan</h1>
+      <p class="lead text-secondary">.NET Developer | SQL | C#</p>
+      <p class="text-muted text-center" style="max-width: 600px">
+        Ambitious and solution-oriented developer with many years of experience
+        in dentistry and recently .NET programming. Born in Iraq, lived in Spain
+        for one year. Living in Sweden, Stockholm, now. Thanks to that
+        opportunity I learned to speak Spanish and Swedish, along with my native
+        language which is Arabic. I am a curious person who likes to develop, I
+        am curious about new technology and driven to create modern and
+        efficient solutions. My extensive experience in customer-facing roles
+        has given me a strong understanding of user needs, which I enjoy
+        applying in development work. I am seeking a junior .NET developer role
+        where I can use my skills in C#, SQL, and database management to
+        contribute to the success of the development team.
+      </p>
+      <button
+        class="btn btn-outline-light mt-3"
+        onclick="window.open('files/cv.pdf', '_blank')"
+      >
+        Download My CV
+      </button>
     </main>
 
-    <section id="skills" class="container py-5">
-      <h2 class="text-center fw-bold">Skills</h2>
-      <div class="row mt-4 text-center">
+    <section id="skills" class="container py-5 text-center">
+      <h2 class="text-white fw-bold">Skills</h2>
+      <div class="row mt-4">
         <div class="col-md-3">
-          <i class="fab fa-html5 fa-3x"></i>
+          <i class="fab fa-html5 fa-3x text-white"></i>
           <p>HTML</p>
         </div>
         <div class="col-md-3">
-          <i class="fab fa-css3 fa-3x"></i>
+          <i class="fab fa-css3 fa-3x text-white"></i>
           <p>CSS</p>
         </div>
         <div class="col-md-3">
-          <i class="fab fa-js fa-3x"></i>
+          <i class="fab fa-js fa-3x text-white"></i>
           <p>JavaScript</p>
         </div>
         <div class="col-md-3">
-          <i class="fab fa-git fa-3x"></i>
+          <i class="fab fa-git fa-3x text-white"></i>
           <p>Git</p>
         </div>
         <div class="col-md-3 mt-3">
-          <i class="fas fa-database fa-3x"></i>
+          <i class="fas fa-database fa-3x text-white"></i>
           <p>SQL</p>
         </div>
         <div class="col-md-3 mt-3">
-          <i class="fab fa-react fa-3x"></i>
+          <i class="fab fa-react fa-3x text-white"></i>
           <p>React</p>
         </div>
         <div class="col-md-3 mt-3">
-          <i class="fas fa-code fa-3x"></i>
+          <i class="fas fa-code fa-3x text-white"></i>
           <p>C#</p>
         </div>
         <div class="col-md-3 mt-3">
-          <i class="fas fa-server fa-3x"></i>
+          <i class="fas fa-server fa-3x text-white"></i>
           <p>.NET</p>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="text-center py-5 bg-dark text-white">
+    <section id="contact" class="text-center py-5 bg-black text-white">
       <h2 class="fw-bold">Let's Connect</h2>
       <div class="social-icons mt-3">
         <a
@@ -133,7 +134,7 @@
       </div>
     </section>
 
-    <footer class="text-center py-3 bg-light">
+    <footer class="text-center py-3 bg-dark text-white">
       <p class="mb-0">&copy; 2025 May Adnan</p>
     </footer>
 
