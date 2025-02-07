@@ -1,62 +1,68 @@
-/* Typography */
+/* General Styles */
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: #ffffff;
-  color: #000000;
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+  color: #fff;
   margin: 0;
   padding: 0;
-}
-
-/* Layout */
-.container {
-  width: 80%;
-  margin: 0 auto;
   text-align: center;
-  padding: 20px;
 }
 
-/* Profile Image */
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  max-width: 600px;
+}
+
 .profile-img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
 }
 
-/* Buttons */
 .btn {
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-radius: 5px;
   padding: 10px 20px;
   background-color: transparent;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .btn:hover {
-  background-color: #000;
-  color: #fff;
-}
-
-/* Links */
-a {
+  background-color: #fff;
   color: #000;
-  text-decoration: none;
-  transition: color 0.3s;
 }
 
-a:hover {
-  color: #555;
+/* Skills Section */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 15px;
+  padding: 20px;
 }
 
-/* Icons */
-.social-icons i {
-  font-size: 24px;
-  margin: 0 10px;
-  transition: color 0.3s;
+.skills-grid span {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
-.social-icons i:hover {
-  color: #555;
+/* Social Icons */
+.social-icons a {
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
 }
