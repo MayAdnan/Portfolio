@@ -1,44 +1,62 @@
+/* Typography */
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #000;
-  color: #fff;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
 }
 
-.hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #000;
+/* Layout */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
 }
 
+/* Profile Image */
 .profile-img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 2px solid #fff;
-  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.btn-outline-light {
-  border: 2px solid #fff;
-  border-radius: 30px;
+/* Buttons */
+.btn {
+  border: 1px solid #000;
+  border-radius: 5px;
   padding: 10px 20px;
-  color: #fff;
-  transition: 0.3s;
-}
-
-.btn-outline-light:hover {
-  background: #fff;
+  background-color: transparent;
   color: #000;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.social-icons a {
-  transition: 0.3s;
-}
-
-.social-icons a:hover {
-  transform: scale(1.1);
+.btn:hover {
+  background-color: #000;
   color: #fff;
+}
+
+/* Links */
+a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #555;
+}
+
+/* Icons */
+.social-icons i {
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #555;
 }
