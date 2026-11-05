@@ -1,11 +1,5 @@
-Ett projekt om en personlig utvecklarportfölj som presenterar kunskaper, erfarenheter och projekt. Webbplatsen är designad för att ge en översikt över professionella bakgrund och  tekniska färdigheter.
+# Portfolio (archived)
 
-Innehåller fuktioner som:
-Kort beskrivning om mig, kunskaper, portfolio, referenser, kontaktformulär och CV. 
-Via kontaktformuläret kan besökare skicka meddelanden direkt. Möjlighet att ladda ner CV som PDF. 
+This was my first portfolio site (2025). It now redirects to the current one:
 
-Använder mig av:
-HTML, CSS, Javascript, Git och Ionicons (ikoner för sociala medier).
-
-
-Länk till Facebook, Linkedin och Github inkluderad. 
+**https://mayadnan.github.io/ReactPortfolio/** — source in [MayAdnan/ReactPortfolio](https://github.com/MayAdnan/ReactPortfolio).
